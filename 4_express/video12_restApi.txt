@@ -1,0 +1,13 @@
+# RULES OF REST API
+
+RULE 1. Follow Server client architecture -> both behave like separate entity
+
+  example 1: (ager client koi bhi he)
+    a. server will query db & data ko json format   me send kardia as a response , now client ka  frontend decide karega is data ko kaise render   karana he screen pe
+    b. aka server side rendering jaha pe html data ata he (fast)
+
+  example 2: (ager client browser he)
+    a. server will query db & data ko html format   me send kardia as a response , now wo data show hoga client side pe as a html document
+    b. aka client side rendering jaha pe json data ata he (slow)
+
+RULE 2 . Always respect of HTTP methods means alag se koi route mat banao  (/user he toh /updateUser banane ki zaroorat nahi he , instead use http methods, like use method patch to update user )

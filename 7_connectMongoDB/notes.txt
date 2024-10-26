@@ -1,0 +1,10 @@
+1. we connect mongoDB through mongoose package
+
+2. in mongoose there is a Schema 
+    -> it defines the structure of database
+    -> Schema ko use karke we make a model
+    -> Using this model we do CRUD operations
+
+3. sabse pehle schema banaya, model banaya, connect kia mongoDB through mongoose
+
+4. 

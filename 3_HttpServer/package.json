@@ -1,0 +1,14 @@
+{
+  "name": "3_httpserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "aditya jaiswal",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "url": "^0.11.4"
+  }
+}

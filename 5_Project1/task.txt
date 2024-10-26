@@ -1,0 +1,20 @@
+DESIGNING REST API JO JSON DATA SUPPORT KAREGA
+
+NOTE : hybrid server hona chahiye jo browser aur mobile dono ko support kare
+1. GET /users -> list all users as html
+
+1. GET /api/users -> list all users as json
+(since ye json data bhej raha he islie always use /api, means ager /api laga hua he iska matlb jsin data throw karega ager /api nhi lga iska matlb wo html data throw karega)
+
+
+//By dynamic path parameters : /api/users/:id
+//yaha id means a variable , its dynamic
+2. GET /api/users/1 -> get the user with id=1
+3. POST /api/users -> create new user
+4. PATCH /api/users/1 -> Edit the user with id1
+5. DELETE /api/users/1 -> Delete the user with id 1
+
+NOTE : im going to use fake data api to generate many fake users
+
+MIDDLEWARE :
+a function acts as a middleman between server & client jiske pass req & res & next middleware ka access hota he (learn L-15)

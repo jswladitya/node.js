@@ -1,0 +1,14 @@
+Node.js versioning Explained 
+
+Our express version looks like : ^4.21.0
+1st part -> 4
+2nd part -> 21
+3rd part -> 0
+
+3rd part -> just minor bug fixes (optional)
+
+2nd part -> critical security bug fix or we can say 20 se 21 wale version me important bug fix hua he & ye recommended he ki ham ab 21 wale me update karle (ya ho sakte he koi recommended feature add hua ho)
+
+1st part -> major or breaking update -> you should not update it if you are working on existing app jo ki version 4 pe build hua he , version 5 me ho sakta he wo code break ho jaye ya fat jaye
+
+^ Symbol -> 4th version ko hi automatically update karo

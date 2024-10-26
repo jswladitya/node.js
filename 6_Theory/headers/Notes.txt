@@ -1,0 +1,7 @@
+# http Headers
+1. har req & and res ke sath jo network packets bante , packets ke ander to actual data hota he but packet ke uper additional information hoti he ki req kaha se ayi, use kaha jana he & iske ander kitna data he
+
+2. so req & res ke sath extra information ati he jise headers kehte he & ye heades builtin aur custom bhi ho sakte he
+
+3. custom headers ('X-yourkey' : 'yourvalue') bhi as a response or as a request bhej sakte he
+(always append X to the custom headers)
